@@ -1,0 +1,53 @@
+model_package:
+  doi: "10.48420/16965271"
+  title: "Trained AI model and associated files"
+  landing_url: "https://figshare.manchester.ac.uk/articles/dataset/Trained_AI_model_and_associated_files/16965271/2"
+  file_id: "38936852"
+  direct_download_url: "https://figshare.manchester.ac.uk/ndownloader/files/38936852"
+  expected_archive_name: "AI_model_and_files.zip"
+  size_bytes: 57472587
+  docker_policy: "copy_or_mount"
+  required_for:
+    - "first_layer_prediction"
+    - "second_layer_evaluation"
+  expected_contents:
+    - "M1_20_model.h5"
+    - "M1_20_model_P_noXS.h5"
+    - "M1_20_model_S_noXS_01to5.h5"
+    - "M1_20_model_S_noXS.h5"
+    - "M1_20_model_P_noPXS_01to5.h5"
+    - "M1_20_model_P_noPXS.h5"
+    - "M1_20_model_S_noPXS.h5"
+    - "predict.py"
+    - "train.py"
+    - "utils.py"
+    - "environment.yml"
+    - "kinetics.txt"
+    - "Kinetic_data_Case_study_1.txt"
+    - "Kinetic_data_Case_study_2.txt"
+    - "Kinetic_data_Case_study_3.txt"
+    - "Kinetic_data_Case_study_4.txt"
+    - "Kinetic_data_Case_study_5.txt"
+    - "Kinetic_data_Case_study_6_Ph.txt"
+    - "Kinetic_data_Case_study_6_Me.txt"
+
+dataset_package:
+  doi: "10.48420/16965292"
+  title: "Training, validation and test set for M1-M20"
+  landing_url: "https://figshare.manchester.ac.uk/articles/dataset/Training_validation_and_test_set_for_M1-M20/16965292"
+  file_id: "38936666"
+  direct_download_url: "https://ndownloader.figshare.com/files/38936666"
+  expected_archive_name: "M1_M20_train_val_test_set.zip"
+  archive_aliases:
+    - "TrainValTest.zip"
+  md5: "9c52b6f31aaf450be570663cfb283f2a"
+  size_bytes: 7080099735
+  docker_policy: "mount_as_volume"
+  required_for:
+    - "second_layer_evaluation"
+    - "gpu_training"
+  expected_contents:
+    - "training set arrays"
+    - "validation set arrays"
+    - "test set arrays"
+    - "test variants with altered time points and noise"

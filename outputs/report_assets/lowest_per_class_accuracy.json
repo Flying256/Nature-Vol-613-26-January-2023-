@@ -1,0 +1,32 @@
+[
+  {
+    "class": "M11",
+    "samples": 5000,
+    "correct": 2683,
+    "accuracy": 0.5366
+  },
+  {
+    "class": "M14",
+    "samples": 5000,
+    "correct": 2926,
+    "accuracy": 0.5852
+  },
+  {
+    "class": "M8",
+    "samples": 5000,
+    "correct": 3760,
+    "accuracy": 0.752
+  },
+  {
+    "class": "M15",
+    "samples": 5000,
+    "correct": 4088,
+    "accuracy": 0.8176
+  },
+  {
+    "class": "M20",
+    "samples": 5000,
+    "correct": 4262,
+    "accuracy": 0.8524
+  }
+]

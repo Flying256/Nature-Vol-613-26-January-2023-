@@ -1,0 +1,21 @@
+variants:
+- name: standard_tp20_noise1
+  category: standard
+  probabilities: artifacts/standard_tp20_noise1_probabilities.npy
+  labels: artifacts/standard_tp20_noise1_labels.npy
+- name: tp6_noise0
+  category: timepoint_noise
+  probabilities: artifacts/tp6_noise0_probabilities.npy
+  labels: artifacts/tp6_noise0_labels.npy
+- name: tp6_noise1
+  category: timepoint_noise
+  probabilities: artifacts/tp6_noise1_probabilities.npy
+  labels: artifacts/tp6_noise1_labels.npy
+- name: tp6_noise5
+  category: timepoint_noise
+  probabilities: artifacts/tp6_noise5_probabilities.npy
+  labels: artifacts/tp6_noise5_labels.npy
+- name: tp2_noise1
+  category: timepoint_noise
+  probabilities: artifacts/tp2_noise1_probabilities.npy
+  labels: artifacts/tp2_noise1_labels.npy

@@ -1,0 +1,10 @@
+artifacts
+official
+tmp
+__pycache__
+.pytest_cache
+*.pyc
+*.zip
+*.h5
+*.npy
+*.npz

@@ -1,0 +1,28 @@
+.DS_Store
+__pycache__/
+.pytest_cache/
+.venv/
+.venv-wsl-tf/
+
+# Official upstream archives and extracted large datasets.
+# Download them from the DOI/Figshare links in manifests/official_resources.yml.
+official/
+Data/
+*.zip
+*.pkl
+*.npy
+
+# Model weights are distributed as release assets, not committed to git.
+*.h5
+*.keras
+
+# Large or local runtime outputs.
+outputs/full_train.log
+outputs/*.pid
+outputs/smoke_training*.log
+outputs/report_render*/
+
+# Do not mix the separate Science 378 reproduction into this repository.
+science378*/
+*Science*378*
+*science*378*

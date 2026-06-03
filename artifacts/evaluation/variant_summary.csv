@@ -1,0 +1,6 @@
+name,category,samples,top1_accuracy,top3_accuracy,grouped_99_accuracy,mean_group_size_99,confusion_matrix
+standard_tp20_noise1,standard,100000,0.891460,0.995430,0.998350,1.673070,artifacts/evaluation/standard_tp20_noise1_confusion_matrix.csv
+tp6_noise0,timepoint_noise,100000,0.926390,1.000000,0.999620,1.372000,artifacts/evaluation/tp6_noise0_confusion_matrix.csv
+tp6_noise1,timepoint_noise,100000,0.860170,0.989420,0.998500,2.083330,artifacts/evaluation/tp6_noise1_confusion_matrix.csv
+tp6_noise5,timepoint_noise,100000,0.505840,0.812470,0.828050,2.888450,artifacts/evaluation/tp6_noise5_confusion_matrix.csv
+tp2_noise1,timepoint_noise,100000,0.716500,0.954420,0.994080,3.265280,artifacts/evaluation/tp2_noise1_confusion_matrix.csv

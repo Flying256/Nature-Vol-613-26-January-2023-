@@ -1,0 +1,98 @@
+===== Case 1 ring-closing metathesis =====
+2026-05-28 07:10:32.328821: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2026-05-28 07:10:32.329740: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2026-05-28 07:10:32.329751: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+sh: 1: color: not found
+2026-05-28 07:10:33.371239: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2026-05-28 07:10:33.371500: E tensorflow/stream_executor/cuda/cuda_driver.cc:351] failed call to cuInit: UNKNOWN ERROR (303)
+
+Using model: Data/M1_20_model_P_noXS.h5
+This model requires: ['Time', 'P', 'catT'] per sample
+Predicting mechanism for data in  experiments/Kinetic_data_Case_study_1.txt
+With [SM]0: 100.0
+Kinetic data is consistent with mechanisms[1m M12 M17 [0m
+Plotting results
+===== Case 2 iron-catalyzed cycloaddition =====
+2026-05-28 07:10:37.497423: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2026-05-28 07:10:37.498321: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2026-05-28 07:10:37.498333: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+sh: 1: color: not found
+2026-05-28 07:10:38.360798: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2026-05-28 07:10:38.361044: E tensorflow/stream_executor/cuda/cuda_driver.cc:351] failed call to cuInit: UNKNOWN ERROR (303)
+
+Using model: Data/M1_20_model_P_noPXS.h5
+This model requires: ['Time', 'S', 'P', 'catT'] per sample
+Predicting mechanism for data in  experiments/Kinetic_data_Case_study_2.txt
+Initial concentration of starting material, S : 0.86
+Kinetic data is consistent with mechanisms[1m M14 M16 [0m
+Plotting results
+===== Case 3 iridium alkene isomerization =====
+2026-05-28 07:10:42.402133: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2026-05-28 07:10:42.403002: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2026-05-28 07:10:42.403012: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+sh: 1: color: not found
+2026-05-28 07:10:43.287225: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2026-05-28 07:10:43.287423: E tensorflow/stream_executor/cuda/cuda_driver.cc:351] failed call to cuInit: UNKNOWN ERROR (303)
+
+Using model: Data/M1_20_model_S_noXS_01to5.h5
+This model requires: ['Time', 'S', 'catT'] per sample
+Predicting mechanism for data in  experiments/Kinetic_data_Case_study_3.txt
+Initial concentration of starting material, S : 0.09962
+Kinetic data is consistent with mechanisms[1m M10 M15 [0m
+Plotting results
+===== Case 4 C-H amination =====
+2026-05-28 07:10:47.490111: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2026-05-28 07:10:47.490970: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2026-05-28 07:10:47.490981: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+sh: 1: color: not found
+2026-05-28 07:10:48.401571: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2026-05-28 07:10:48.401778: E tensorflow/stream_executor/cuda/cuda_driver.cc:351] failed call to cuInit: UNKNOWN ERROR (303)
+
+Using model: Data/M1_20_model_P_noPXS_01to5.h5
+This model requires: ['Time', 'S', 'P', 'catT'] per sample
+Predicting mechanism for data in  experiments/Kinetic_data_Case_study_4.txt
+Initial concentration of starting material, S : 447.2
+Kinetic data is consistent with mechanism[1m M7 [0m
+Plotting results
+===== Case 5 hydroalkoxylation =====
+2026-05-28 07:10:52.476574: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2026-05-28 07:10:52.477530: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2026-05-28 07:10:52.477542: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+sh: 1: color: not found
+2026-05-28 07:10:53.384358: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2026-05-28 07:10:53.384591: E tensorflow/stream_executor/cuda/cuda_driver.cc:351] failed call to cuInit: UNKNOWN ERROR (303)
+
+Using model: Data/M1_20_model_S_noPXS_01to5.h5
+This model requires: ['Time', 'S', 'catT'] per sample
+Predicting mechanism for data in  experiments/Kinetic_data_Case_study_5.txt
+Initial concentration of starting material, S : 0.6
+Kinetic data is consistent with mechanisms[1m M6 M8 [0m
+Plotting results
+===== Case 6 Ph carbonyl-olefin metathesis =====
+2026-05-28 07:10:57.383194: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2026-05-28 07:10:57.384249: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2026-05-28 07:10:57.384267: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+sh: 1: color: not found
+2026-05-28 07:10:58.306864: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2026-05-28 07:10:58.307072: E tensorflow/stream_executor/cuda/cuda_driver.cc:351] failed call to cuInit: UNKNOWN ERROR (303)
+
+Using model: Data/M1_20_model_S_noXS.h5
+This model requires: ['Time', 'S', 'catT'] per sample
+Predicting mechanism for data in  experiments/Kinetic_data_Case_study_6_Ph.txt
+Initial concentration of starting material, S : 0.001
+Kinetic data is consistent with mechanisms[1m M10 M11 M14 M15 M20 [0m
+Plotting results
+===== Case 6 Me carbonyl-olefin metathesis =====
+2026-05-28 07:11:02.454303: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer.so.6'; dlerror: libnvinfer.so.6: cannot open shared object file: No such file or directory
+2026-05-28 07:11:02.455304: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libnvinfer_plugin.so.6'; dlerror: libnvinfer_plugin.so.6: cannot open shared object file: No such file or directory
+2026-05-28 07:11:02.455316: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:30] Cannot dlopen some TensorRT libraries. If you would like to use Nvidia GPU with TensorRT, please make sure the missing libraries mentioned above are installed properly.
+sh: 1: color: not found
+2026-05-28 07:11:03.354498: W tensorflow/stream_executor/platform/default/dso_loader.cc:55] Could not load dynamic library 'libcuda.so.1'; dlerror: libcuda.so.1: cannot open shared object file: No such file or directory
+2026-05-28 07:11:03.354694: E tensorflow/stream_executor/cuda/cuda_driver.cc:351] failed call to cuInit: UNKNOWN ERROR (303)
+
+Using model: Data/M1_20_model_S_noXS.h5
+This model requires: ['Time', 'S', 'catT'] per sample
+Predicting mechanism for data in  experiments/Kinetic_data_Case_study_6_Me.txt
+Initial concentration of starting material, S : 0.001
+Kinetic data is consistent with mechanisms[1m M4 M5 M10 M11 M15 M16 [0m
+Plotting results

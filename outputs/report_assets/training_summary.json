@@ -1,0 +1,14 @@
+{
+  "epochs_recorded": 1931,
+  "final_epoch": 1931,
+  "final_train_accuracy": 0.8121,
+  "final_train_loss": 0.4716,
+  "final_val_accuracy": 0.8152,
+  "final_val_loss": 0.4646,
+  "best_val_accuracy_epoch": 1631,
+  "best_val_accuracy": 0.8193,
+  "best_val_loss_epoch": 1631,
+  "best_val_loss": 0.4544,
+  "mean_epoch_seconds": 112.33557742102538,
+  "total_training_hours_from_logged_epochs": 60.25555555555555
+}

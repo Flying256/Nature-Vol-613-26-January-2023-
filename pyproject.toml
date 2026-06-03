@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61,<68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "nature613-repro"
+version = "0.1.0"
+description = "Reproduction utilities for Nature 613 organic reaction mechanism classification"
+requires-python = ">=3.7"
+dependencies = [
+  "numpy",
+  "pyyaml",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]

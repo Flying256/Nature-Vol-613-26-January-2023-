@@ -1,0 +1,122 @@
+[
+  {
+    "class": "M1",
+    "samples": 5000,
+    "correct": 4991,
+    "accuracy": 0.9982
+  },
+  {
+    "class": "M2",
+    "samples": 5000,
+    "correct": 4573,
+    "accuracy": 0.9146
+  },
+  {
+    "class": "M3",
+    "samples": 5000,
+    "correct": 4891,
+    "accuracy": 0.9782
+  },
+  {
+    "class": "M4",
+    "samples": 5000,
+    "correct": 4917,
+    "accuracy": 0.9834
+  },
+  {
+    "class": "M5",
+    "samples": 5000,
+    "correct": 4454,
+    "accuracy": 0.8908
+  },
+  {
+    "class": "M6",
+    "samples": 5000,
+    "correct": 4327,
+    "accuracy": 0.8654
+  },
+  {
+    "class": "M7",
+    "samples": 5000,
+    "correct": 4990,
+    "accuracy": 0.998
+  },
+  {
+    "class": "M8",
+    "samples": 5000,
+    "correct": 3760,
+    "accuracy": 0.752
+  },
+  {
+    "class": "M9",
+    "samples": 5000,
+    "correct": 4752,
+    "accuracy": 0.9504
+  },
+  {
+    "class": "M10",
+    "samples": 5000,
+    "correct": 4424,
+    "accuracy": 0.8848
+  },
+  {
+    "class": "M11",
+    "samples": 5000,
+    "correct": 2683,
+    "accuracy": 0.5366
+  },
+  {
+    "class": "M12",
+    "samples": 5000,
+    "correct": 4523,
+    "accuracy": 0.9046
+  },
+  {
+    "class": "M13",
+    "samples": 5000,
+    "correct": 4919,
+    "accuracy": 0.9838
+  },
+  {
+    "class": "M14",
+    "samples": 5000,
+    "correct": 2926,
+    "accuracy": 0.5852
+  },
+  {
+    "class": "M15",
+    "samples": 5000,
+    "correct": 4088,
+    "accuracy": 0.8176
+  },
+  {
+    "class": "M16",
+    "samples": 5000,
+    "correct": 4891,
+    "accuracy": 0.9782
+  },
+  {
+    "class": "M17",
+    "samples": 5000,
+    "correct": 4991,
+    "accuracy": 0.9982
+  },
+  {
+    "class": "M18",
+    "samples": 5000,
+    "correct": 4923,
+    "accuracy": 0.9846
+  },
+  {
+    "class": "M19",
+    "samples": 5000,
+    "correct": 4924,
+    "accuracy": 0.9848
+  },
+  {
+    "class": "M20",
+    "samples": 5000,
+    "correct": 4262,
+    "accuracy": 0.8524
+  }
+]
